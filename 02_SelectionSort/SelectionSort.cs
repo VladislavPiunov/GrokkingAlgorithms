@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-internal sealed class SelectionSort
+﻿internal sealed class SelectionSort
 {
     private static List<int> SelectionSort(List<int> arr)
     {

@@ -1,4 +1,4 @@
-﻿internal sealed class CheckVoter
+﻿internal sealed class Checkvoter
 {
     private static Dictionary<string, bool> voted = new();
 

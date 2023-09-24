@@ -1,6 +1,6 @@
 ﻿internal sealed class Greet
 {
-    private static void Greet2(string name)
+    private static void Greetings2(string name)
     {
         Console.WriteLine("How are you, " + name + "?");
     }
@@ -10,16 +10,16 @@
         Console.WriteLine("Ok bye!");
     }
 
-    private static void Greet(string name)
+    private static void Greetings(string name)
     {
         Console.WriteLine("Hello, " + name + "!");
-        Greet2(name);
+        Greetings2(name);
         Console.WriteLine("Getting ready to say bye...");
         Bye();
     }
 
     public static void Main()
     {
-        Greet("Vlad");
+        Greetings("Vlad");
     }
 }

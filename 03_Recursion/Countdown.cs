@@ -1,5 +1,6 @@
-﻿{
-    private static void Countdown(int i)
+﻿internal sealed class Countdown
+{
+    private static void countdown(int i)
     {
         Console.WriteLine(i);
         
@@ -10,12 +11,12 @@
         }
         else
         {
-            Countdown(i - 1);
+            countdown(i - 1);
         }
     }
     
     public static void Main()
     {
-        Countdown(5);
+        countdown(5);
     }
 }

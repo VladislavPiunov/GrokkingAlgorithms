@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-internal sealed class BinarySearch
+﻿internal sealed class BinarySearch
 {
     private static int BinarySearch(int[] list, int item)
     {
